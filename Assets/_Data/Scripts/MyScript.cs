@@ -8,8 +8,17 @@ public class MyScript : MonoBehaviour
     {
         this.TestOperator();
         this.TestClass();
+        this.TestIsDead();
     }
 
+    void TestIsDead()
+    {
+        Zombie zombie = new Zombie();
+        zombie.SetHP(0);
+        string LogMessage = zombie.GetName() + ": " + zombie.GetCurrentHP()+" "+zombie.IsDead();
+        Debug.Log(LogMessage);
+
+    }
     void TestOperator()
     {
         int variable = 100;

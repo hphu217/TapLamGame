@@ -11,17 +11,40 @@ public abstract class Enemy : MonoBehaviour
     EnemyHead head = new EnemyHead();
     EnemyHeart heart = new EnemyHeart();
 
+
+    public virtual bool  IsDead()
+    {
+        if (this.currentHp <= 0)
+        {
+            this.isAlive = false;
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
     float Getweight()
     {
         return this.weight;
     }
-    protected abstract string GetName();
+    public abstract string GetName();
 
+    public virtual float GetCurrentHP()
+    {
+        return this.currentHp;
+    }
+
+    public virtual void SetHP(int hp)
+    {
+        this.currentHp = hp;
+    }
     public void Moving()
     {
         string logMessage = this.GetName() + " Moving";
         Debug.Log(logMessage);
     }
+
 
 
 }

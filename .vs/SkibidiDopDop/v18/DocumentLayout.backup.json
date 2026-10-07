@@ -1,12 +1,55 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Lenovo\\SkibidiDopDop\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9A7C1321-002D-2BD7-EB2F-7CEF087B57E4}|Assembly-CSharp.csproj|c:\\users\\lenovo\\skibididopdop\\assets\\_data\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A7C1321-002D-2BD7-EB2F-7CEF087B57E4}|Assembly-CSharp.csproj|solutionrelative:assets\\_data\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A7C1321-002D-2BD7-EB2F-7CEF087B57E4}|Assembly-CSharp.csproj|C:\\Users\\Lenovo\\SkibidiDopDop\\assets\\_data\\scripts\\myscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A7C1321-002D-2BD7-EB2F-7CEF087B57E4}|Assembly-CSharp.csproj|solutionrelative:assets\\_data\\scripts\\myscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\SkibidiDopDop\\Assets\\_Data\\Scripts\\Enemy.cs",
+              "RelativeDocumentMoniker": "Assets\\_Data\\Scripts\\Enemy.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\SkibidiDopDop\\Assets\\_Data\\Scripts\\Enemy.cs",
+              "RelativeToolTip": "Assets\\_Data\\Scripts\\Enemy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-07T11:22:02.644Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MyScript.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\SkibidiDopDop\\Assets\\_Data\\Scripts\\MyScript.cs",
+              "RelativeDocumentMoniker": "Assets\\_Data\\Scripts\\MyScript.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\SkibidiDopDop\\Assets\\_Data\\Scripts\\MyScript.cs",
+              "RelativeToolTip": "Assets\\_Data\\Scripts\\MyScript.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-07T11:17:06.273Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
